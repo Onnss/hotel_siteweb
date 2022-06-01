@@ -1,0 +1,242 @@
+/* header section*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    margin: 0px;
+    padding-right: 30px;
+    background-color: #1d3649;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 50px;
+}
+a:link {
+    text-decoration: none;
+    color: #e7e8e8;
+}
+a:visited{
+    color: #e7e8e8;
+}
+a:hover{
+    border-bottom: 3px solid #74b395;
+}
+/*dropdown button*/
+.btn1{
+    background-color: #1d3649;
+    border: none;
+    color: #e7e8e8;
+    text-emphasis: none;
+    font-size: 16px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .content a {
+    color:#1d3649;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .content a:hover {background-color: #e7e8e8;}
+  
+  .dropdown:hover .content {
+    display: block;
+  }
+  
+             /*end dropdown button*/
+             /*end header section*/
+
+/*homeview section*/
+.homeview{
+    position: relative;
+    text-align: center;
+    color:#1d3649;
+}
+.homeimg{
+    margin: 0px;
+    width: 100%;
+}
+#p1{
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    
+}
+.btn{
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color: #6D8B74;
+    align-items: center;
+    justify-content: center;
+    color: #e7e8e8;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+        /*end home view section*/
+
+/*facilities & servives section*/
+h2{
+    color: #1d3649;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 60px;
+    padding-left: 90px;
+}
+.services{
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+.food,.fitness, .meeting{
+    width: 550px;
+    height: 250px;
+}
+h3{
+    color: #8760b8;
+    padding-top: 50px;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+/*end facilities & services section*/
+
+/*rooms section*/
+.rooms{
+    padding-top: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+.rooms h3{
+    padding-top: 0px;
+}
+.i1, .i2, .i4, .i6, .i7, .i8{
+    
+    width: 550px;
+    height: 250px;
+    border-radius: 12px;
+}
+.i3, .i5{
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+}
+.rooms div{
+    border: 2px solid #e7e8e8;
+    border-radius: 12px;
+}
+.rooms div:hover{
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+.rooms p{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+.f{
+    color: #73777B;
+    width: 120px;
+    float: right;
+    text-align: center;
+}
+
+/* animated button*/
+/*start*/
+.buttn {
+    border-radius: 4px;
+    background-color: #6D8B74;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 160px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 380px;
+  }
+  
+  .buttn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttn:hover span {
+    padding-right: 25px;
+  }
+  
+  .buttn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  /*end animated button*/
+  /*end rooms section*/
+
+/*location section*/
+.maps{
+    margin-left: 150px;
+    width: 86%;
+    height: 500px;
+    display: block;
+    margin-bottom: 50px;
+}
+/*end location section*/
+
+/*footer section*/
+.footer{
+    margin: 0px;
+    padding-right: 30px;
+    background-color: #1d3649;
+    color: #e7e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding-left: 90px
+}
+/*end footer section*/
+
+
