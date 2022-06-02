@@ -1,0 +1,76 @@
+/*header*/
+.menu,.btn1,.logo{
+    font-size: 16px;
+    padding: 0%;
+    display: inline-block;
+}
+/*home img & button*/
+.btn{
+    font-size: 16px;
+    font-style: bold;
+    width:40%;
+    top:250px;
+}
+#p1{
+    font-size: 20px;
+}
+/*facilities & services*/
+.services,.rooms {
+    display: flex;
+    flex-direction: column;
+    /*display: grid;
+    grid-template-columns: 100%;*/
+    margin: 0%;
+    padding: 0%; 
+}
+
+.services img{
+    width: 100%;
+}
+h3{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+h2{
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    margin: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+/* .kitchen{
+    order: -1;
+} */
+.services :nth-child(1) { order: 2; }
+.services  :nth-child(2) { order: 1; }
+.services  :nth-child(3) { order: 3; }
+.services  :nth-child(4) { order: 4; }
+.services  :nth-child(5) { order: 6; }
+.services  :nth-child(6) { order: 5; }
+
+/*rooms*/
+.i1, .i2, .i4, .i6, .i7, .i8{
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+}
+.buttn{
+    width: 100%;
+    margin: 0%;
+}
+/*location*/
+.maps,.footer{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 10%;
+}
+.footer{
+    padding: 0%;
+}
+
